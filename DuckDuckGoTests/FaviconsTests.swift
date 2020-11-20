@@ -30,6 +30,7 @@ class FaviconsTests: XCTestCase {
         BookmarkUserDefaults().bookmarks = []
         BookmarkUserDefaults().favorites = []
         
+        
         Favicons.Constants.tabsCache.clearDiskCache()
         Favicons.Constants.tabsCache.clearMemoryCache()
         Favicons.Constants.bookmarksCache.clearDiskCache()
@@ -88,7 +89,10 @@ class FaviconsTests: XCTestCase {
         case .alternativeSources(let sources):
             XCTAssertEqual(2, sources.count)
             XCTAssertEqual(sources[0].url, URL(string: "https://example.com/favicon.ico"))
-            XCTAssertEqual(sources[1].url, URL(string: "http://example.com/favicon.ico"))
+            
+            
+            
+            XCTAssertEqual(sources[1].url, URL(string: "http://example.com/faviconnnn.ico"))
 
         default:
             XCTFail("Unexpected option")
@@ -100,7 +104,7 @@ class FaviconsTests: XCTestCase {
         
         let resource = Favicons.shared.defaultResource(forDomain: "example.com")
         XCTAssertEqual(resource?.cacheKey, "\(Favicons.Constants.salt)example.com".sha256())
-        XCTAssertEqual(resource?.downloadURL, URL(string: "https://example.com/apple-touch-icon.png"))
+        XCTAssertEqual(resource?.downloadURL, URL(string: "https://example.com/apple-touch-iconnn.png"))
         
     }
     
