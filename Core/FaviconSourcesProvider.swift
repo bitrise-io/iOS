@@ -29,7 +29,7 @@ protocol FaviconSourcesProvider {
 
 class DefaultFaviconSourcesProvider: FaviconSourcesProvider {
     
-//testing 19
+//testing 20
     enum ImageNames: String {
         
         case appleTouch = "apple-touch-icon.png"
