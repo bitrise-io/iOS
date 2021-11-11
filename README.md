@@ -1,7 +1,7 @@
 # DuckDuckGo iOS
 
 
-We are excited to engage the community in development!!
+We are excited to engage the community in development!!!
 
 
 ## We are hiring!
