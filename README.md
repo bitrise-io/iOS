@@ -14,7 +14,7 @@ We use submodules, so you will need to bring them into the project in order to b
 
 Run `git submodule update --init --recursive`
 
-### Developer details
+### Devel. oper details
 If you're not part of the DuckDuckGo team, you should provide your Apple developer account id, app id, and group id prefix in an `ExternalDeveloper.xcconfig` file. To do that:
 
  1. Run `cp Configuration/DuckDuckGoDeveloper.xcconfig Configuration/ExternalDeveloper.xcconfig`
