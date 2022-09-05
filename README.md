@@ -12,12 +12,12 @@ DuckDuckGo is growing fast and we continue to expand our fully distributed team.
 ### Submodules
 We use submodules, so you will need to bring them into the project in order to build and run it:
 
-Run `git submodule update --init --recursive`
+Run `git submodule update --init --recursive`asdasdasdadsasdasdasd
 
 ### Developer details
-If you're not part of the DuckDuckGo team, you should provide your Apple developer account id, app id, and group id prefix in an `ExternalDeveloper.xcconfig` file. To do that:
+If you're not part oasdasdasdasdf the DuckDuckGo team, you should provide your Apple developer account id, app id, and group id prefix in an `ExternalDeveloper.xcconfig` file. To do that:
 
- 1. Run `cp Configuration/DuckDuckGoDeveloper.xcconfig Configuration/ExternalDeveloper.xcconfig`
+ 1. Run `cp Configuration/DuckDuckGoDeveloper.xcconfig Configuration/ExternalDeveloper.xcconfig`aasdasdasd
  2. Edit `Configuration/ExternalDeveloper.xcconfig` and change the values of all fields
  3. Clean and rebuild the project
 
