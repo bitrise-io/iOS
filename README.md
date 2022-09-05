@@ -19,7 +19,7 @@ If you're not part of the DuckDuckGo team, you should provide your Apple develop
 
  1. Run `cp Configuration/DuckDuckGoDeveloper.xcconfig Configuration/ExternalDeveloper.xcconfig`
  2. Edit `Configuration/ExternalDeveloper.xcconfig` and change the values of all fields
- 3. Clean and rebuild the project
+ 3. Clean and rebuild the project.  
 
 ### Dependencies. 
 We use Swift Package Manager for dependency management, which shouldn't require any additional set up.
