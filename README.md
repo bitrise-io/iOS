@@ -24,7 +24,7 @@ If you're not part of the DuckDuckGo team, you should provide your Apple develop
 ### Dependencies. 
 We use Swift Package Manager for dependency management, which shouldn't require any additional set up.
 
-### SwiftLint
+### SwiftLint. 
 We use [SwifLint](https://github.com/realm/SwiftLint) for enforcing Swift style and conventions, so you'll need to [install it](https://github.com/realm/SwiftLint#installation).
 
 ### Fonts
